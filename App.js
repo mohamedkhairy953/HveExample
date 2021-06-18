@@ -4,7 +4,7 @@ import {Button} from 'react-native';
 
 class App extends Component {
   startSurvey() {
-    HveSdk.startSurvey('userName', 'password', _message => {});
+    HveSdk.startSurvey('InAppUser', 'InApp2021', _message => {});
   }
   render() {
     return (
